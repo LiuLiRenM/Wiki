@@ -7,3 +7,10 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: liuyaowen
+
+# Mybatis配置
+mybatis:
+  # 配置所有Mapper.xml所在的路径
+  mapper-locations: classpath:/mapper/*Dao.xml
+  # 实体扫描
+  type-aliases-package: com.lyw.wiki.**.entity
