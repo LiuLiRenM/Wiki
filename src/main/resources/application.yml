@@ -1,2 +1,9 @@
 server:
   port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/wiki?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: liuyaowen
